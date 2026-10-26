@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Desktop Notifications",
+    "description": "Shows a system notification when a turn finishes or a tool asks for approval."
+  }
+}

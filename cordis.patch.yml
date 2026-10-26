@@ -1,0 +1,20 @@
+# Inserts the notification plugin into the profile.
+# Every field below is optional; the values shown are the defaults.
+- insert:
+    - id: notify
+      name: '@local/dsh-notify'
+      config:
+        # Announce a finished top-level turn.
+        onTurnEnd: true
+        # Announce a pending tool approval.
+        onApproval: true
+        # Also announce subagent/workflow sessions (usually noisy).
+        subagents: false
+        # Skip turn-end banners for turns shorter than N seconds.
+        minTurnSeconds: 5
+        # macOS sound name; set to '' for a silent banner.
+        sound: Glass
+        # Banner title prefix.
+        titlePrefix: DSH
+        # Maximum body length.
+        maxBodyChars: 180

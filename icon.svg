@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Desktop notifications">
+  <defs>
+    <linearGradient id="bell-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4aa3ff"/>
+      <stop offset="1" stop-color="#1f6fd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0f1a2b"/>
+  <path d="M32 12c-7.2 0-12.4 5.3-12.4 12.5v8.9l-3.4 5.9c-1 1.8.3 4 2.4 4h26.8c2.1 0 3.4-2.2 2.4-4l-3.4-5.9v-8.9C44.4 17.3 39.2 12 32 12Z" fill="url(#bell-body)"/>
+  <path d="M27 46.5a5 5 0 0 0 10 0Z" fill="#7cc0ff"/>
+  <circle cx="45.5" cy="18.5" r="6.5" fill="#ff5d5d"/>
+  <circle cx="45.5" cy="18.5" r="6.5" fill="none" stroke="#0f1a2b" stroke-width="2"/>
+</svg>
